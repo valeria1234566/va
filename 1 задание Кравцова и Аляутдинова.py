@@ -1,6 +1,6 @@
     public abstract class HomeAppliance
     {
-        protected public string Proizvoditel;
+        protected public string Manufacturer;
        
     }
     public abstract class HomeApp_Energy: HomeAppliance  
@@ -23,17 +23,17 @@
     public class SVCH_microwave: HomeApp_Energy
     {
         protected public string Power ;
-        protected public string Number_of_modes;
+        protected public int Number_of_modes;
     }
 
  public class Dishwasher: HomeApp_Energy
     { 
-        protected public string Number_of_modes;
+        protected public int Number_of_modes;
     }
 
     public class Kitchen_stove: HomeAppliance
     { 
-        protected public string Number_of_burner;
-        protected public string Number_of_modes;
+        protected public int Number_of_burner;
+        protected public int Number_of_modes;
         protected public string Recessed;
     }
